@@ -85,8 +85,6 @@ prompt-toolkit==3.0.28
     # via ipython
 ptyprocess==0.7.0
     # via pexpect
-py==1.11.0
-    # via pytest
 pycodestyle==2.8.0
     # via flake8
 pycparser==2.21
@@ -101,7 +99,7 @@ pyopenssl==22.0.0
     # via -r test-requirements.in
 pyparsing==3.0.7
     # via packaging
-pytest==7.0.1
+pytest==7.2.1
     # via
     #   -r test-requirements.in
     #   pytest-cov
@@ -118,7 +116,6 @@ tomli==2.0.1
     #   black
     #   coverage
     #   mypy
-    #   pytest
 traitlets==5.1.1
     # via
     #   ipython
